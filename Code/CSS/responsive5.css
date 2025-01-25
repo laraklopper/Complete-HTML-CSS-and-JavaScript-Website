@@ -1,0 +1,206 @@
+/* media screen and (min-width:768px) and (max-width:1024px) */
+@media screen and (min-width:768px) and (max-width:1024px) {
+    /*header*/
+    #header {
+        padding: 0px;
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        text-align: center;
+        }       
+    .h1 {
+        font-size: 22px;
+        padding-top: 5px;
+        margin: 0px;
+        text-align: center;
+        display: inline-block;
+    }
+/*Navigation Bar*/
+    #navbar {
+        display: block;
+        float: right;
+        margin: 0%;
+        padding: 0px;
+        width: 20%;
+    }
+
+    ul {
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 2px;
+        margin: 0px;
+    }
+
+    nav ul li {
+        display: block;
+        text-align: left;
+        list-style-type: none;
+        width: 100%;
+        margin: 0%;
+        padding: 0px;
+    }
+
+    li a {
+        font-size: 14px;
+    }
+
+    li a:hover:not(.active) {
+        background-color: #dea821;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    /*section1*/
+    .h2 {
+        font-family: 'Acme', sans-serif;
+        font-size: 20px;
+        text-align: center;
+    }
+    .label {
+        margin-bottom: 5px;
+        font-weight: bold;
+        margin-top: 10px;
+        color: #3D2C0C;
+        margin-left: 5px;
+        margin-right: 5px;
+        font-family: 'Valera Round', sans-serif;
+        width: 100px;
+        font-size: 14px;
+    }
+ .imgLikes {
+     font-family: 'Acme', sans-serif;
+     color: maroon;
+     font-size: 14x;
+     font-weight: bold;
+     list-style-type: none;
+ }
+ 
+    .btn {
+        font-size: 14px;
+    }
+    .imgLabel {
+        margin: 0px;
+        padding: 0px;
+        font-size: 14px;
+    }
+
+    .imgBtn {
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+    }
+    #likeCount{
+        font-size: 14px;
+    }
+}
+/* media screen 600px */
+@media screen and (max-width:600px){
+    /*header*/
+    #header {
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        padding: 5px;
+    }
+
+    .h1 {
+        font-family: 'Alkatra', cursive;
+        font-size: 22px;
+
+    }
+
+    /* Navigation bar */
+    ul {
+        font-size: 14px;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #navbar {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    nav ul li {
+        margin: 0px;
+        padding-top: 0px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 2px;
+    }
+
+    li a {
+        font-size: 14px;
+        padding: 0px;
+    }
+    /* section1 */
+    #section1{
+        padding: 0px;
+        
+    }
+    .h2 {
+        font-family: 'Acme', sans-serif;
+        font-size: 20px;
+        text-align: center;
+        margin: 0px;
+    }
+  
+
+    /*section2*/
+    #section2{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 5px;
+        margin-right: 5px;
+        padding: 5px;
+
+    }
+    .h4 {
+        font-family: 'Acme', sans-serif;
+        font-size: 20px;
+        color: #522505;
+        font-weight: bold;
+        padding-top: 5px;
+        padding-left: 5px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+    }
+    .imgLikes {
+        font-family: 'Acme', sans-serif;
+        color: maroon;
+        font-size: 12px;
+        font-weight: bold;
+        list-style-type: none;
+    }
+    /*footer*/
+    #footer{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .label {
+        font-size: 14px;
+    }
+    /* image*/
+    .imgLabel {
+        margin: 0px;
+        padding: 0px;
+        font-size: 14px;
+    }
+    .btn {
+        font-size: 14px;
+    }
+    .imgBtn {
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+    }
+    .likes{
+        font-size: 14px;
+    }
+    .likeCount{
+        font-size: 14px;
+    }
+}

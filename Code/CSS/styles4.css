@@ -1,0 +1,235 @@
+/*body*/
+#body {
+    display: flex;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: #404040;
+}
+
+/*container*/
+.container {
+    display: grid;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.col{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    height: auto;        
+}
+.row {
+    width: 100%;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+}
+
+/*header*/
+#header {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 5px;
+    padding: 15px;
+    background: linear-gradient(to bottom right, #818c48 30%, #a4d246 79%);
+}
+
+.h1 {
+    text-align: center;
+    font-family: "Alkatra", cursive;
+    font-weight: bold;
+    color: #006600;
+    padding: 5px;
+    margin-top: 2px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 2px;
+    font-size: 32px;
+}
+
+/*Navigation bar*/
+#navbar {
+    text-align: center;
+    font-size: 16px;
+    padding: 0px;
+}
+
+nav ul li {
+    display: inline;
+    list-style-type: none;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+li a {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: bold;
+    color: #993909;
+}
+
+li a:hover:not(:active) {
+    background-color: #dea821;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/*section1*/
+#section1 {
+    display: inline;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background: linear-gradient(to bottom right, #7ba428 23%, #378736 80%);
+    padding: 10px;
+}
+.h3 {
+    font-family: "Acme", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #344511;
+    text-align: center;
+}
+.para {
+    text-align: justify;
+    font-size: 17px;
+    font-family: 'Bree Serif', serif;
+    color: black;
+    padding: 10px;
+}
+
+/*contact form*/
+.form {
+    padding-right: 0px;
+    padding-bottom: 12px;
+    padding-top: 10px;
+    margin-top: 10px;
+    padding-left: 10px;
+    width: 100%;
+    display: inline-flex;
+
+}
+
+.input {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 16px;
+
+}
+
+.label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #354716;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: 'Signika', sans-serif;
+    width: 140px;
+    font-size: 20px;
+}
+.btn {
+    margin-top: 5px;
+    margin-bottom: 2px;
+    margin-left: 5px;
+    margin-right: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #3D2C0C;
+    font-weight: bold;
+    font-family: 'Signika', sans-serif;
+    background-color: #8DBD2D;
+    font-size: 18px;
+    border: none;
+}
+.input{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 16px;
+    width: 200px;
+}
+
+/*section2*/
+#section2 {
+    display: inline;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background: linear-gradient(to bottom left, #88b52d 11%, #8c8122 84%);
+    padding: 10px;
+}
+/* commentform */
+/* #form2 {
+    width: 100%;
+}
+#commentForm {
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 10px;
+    padding-left: 10px;
+    width: 70%;
+    display: inline-block;
+
+}
+.select {
+    width: 200px;
+    font-size: 16px;
+}
+
+.option {
+    font-size: 14px;
+    font-family: 'Valera Round', sans-serif;
+}
+#comment {
+    display: block;
+    margin: 0px;
+    padding: 5px;
+    width: 70%;
+    height: 150px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 16px;
+} */
+
+
+
+
+/*footer*/
+/* #footer {
+    width: 100%;
+    background: linear-gradient(to bottom right, #7ba428 23%, #378736 80%);
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    padding: 15px;
+    text-align: center;
+
+} */
+/* .h4 {
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+    color: #522505;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+
+}
+*/

@@ -1,0 +1,258 @@
+/* media screen and (min-width:768px) and (max-width:1024px) */
+@media screen and (min-width: 768px) and (max-width:1024px){
+    /* header */
+    #header {
+            padding: 0px;
+            margin-top: 5px;
+            margin-left: 5px;
+            margin-right: 5px;
+            margin-bottom: 5px;
+            text-align: center;
+        }
+    
+        .h1 {
+            font-size: 22px;
+            padding-top: 5px;
+            margin: 0px;
+            text-align: center;
+            display: inline-block;
+        }
+    /*Navigation Bar*/
+        #navbar {
+            display: block;
+            float: right;
+            margin: 0%;
+            padding: 0px;
+            width: 20%;
+        }
+
+        ul {
+         padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 2px;
+        margin: 0px;
+        }
+
+    nav ul li {
+    display: block;
+    text-align: left;
+    list-style-type: none;
+    width: 100%;
+    margin: 0%;
+    padding: 0px;
+}
+
+    li a {
+    font-size: 14px;
+}
+li a:hover:not(.active) {
+    background-color: #dea821;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/* section1 */
+#section1{
+    width: 100%;
+}
+.paragraph{
+    width: 50%;
+    padding: 0px;
+}
+.para {
+    font-size: 14px;
+    font-family: 'Bree Serif', serif;
+}
+.label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #3D2C0C;
+    margin-left: 10px;
+    margin-right: 5px;
+    font-family: 'Valera Round', sans-serif;
+    width: 100px;
+    font-size: 14px;
+}
+/* list */
+.h2 {
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+/*row 8*/
+
+.list-item{
+    font-size: 14px;
+}
+.ref {
+    font-size: 14px;
+}
+.btn {
+    margin-top: 5px;
+    margin-bottom: 2px;
+    margin-left: 5px;
+    margin-right: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #3D2C0C;
+    font-weight: bold;
+    font-family: 'Signika', sans-serif;
+    background-color: #8DBD2D;
+    font-size: 14px;
+    border: none;
+}
+/* image1 */
+#img1{
+    margin: 0px;
+    padding: 0px;
+    width: 30%;
+}
+.imgLabel{
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+}
+.imgBtn {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    border: 1px solid black;
+}
+#imgBtn1{
+    margin: 0px;
+    display: contents;
+
+}
+#image1{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+/*footer*/
+#links{
+    margin: 0px;
+    padding: 5px;
+}
+.para2{
+    font-size: 14px;
+}
+}
+/* media screen 600px */
+@media screen and (max-width:600px){
+    /*header*/
+    #header{
+        padding: 5px;
+    }
+    .h1 {
+    font-family: 'Alkatra', cursive;
+    font-size: 22px;
+
+        }
+ 
+    /* Navigation bar */
+    #navbar {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    nav ul li {
+        margin: 0px;
+        padding-top: 0px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 2px;
+    }
+
+    li a {
+        font-size: 14px;
+        padding: 0px;
+    }
+    ul {
+        font-size: 14px;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    /* section1 */
+    #section1{
+        padding:0px;
+        margin-top: 2px;
+    }
+    .paragraph{
+        padding: 5px;
+        margin: 0px;
+
+    }
+        .para {
+            font-size: 14px;
+            padding: 0px;
+        }
+    .label{
+        font-size: 14px;
+    }
+    /* list */
+         .h2 {
+             font-family: 'Acme', sans-serif;
+             font-size: 20px;
+             text-align: center;
+         }
+    
+         .list-item {
+             font-size: 14px;
+         }
+    /*Row3*/
+          #status {
+              width: 60%;
+              padding: 5px;
+              margin: 0px;
+          }
+        .para2 {
+            font-size: 14px;
+        }
+    /* image */
+    .btn{
+        font-size: 14px;
+    }
+     
+      .likes{
+        font-size: 14px;
+      } 
+      #img1{
+        width: 40%;
+        padding: 0px;
+        margin: 0px;
+        display: inline-block;
+      }
+    .imgBtn {
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        display: contents;
+    }
+  
+    .h4 {
+        font-size: 16px;
+    }
+    /* foooter */
+    #footer{
+        width: 100%;
+
+    }
+    #links{
+        width: 100%;
+    }
+    .ref {
+        font-size: 14px;
+        padding-left: 2px;
+    }
+    .ul{
+       list-style-type: none; 
+    }
+}

@@ -1,0 +1,238 @@
+/*body*/
+#body {
+    display: flex;
+    width: 99%;
+    margin: 0px;
+    padding: 0px;
+    background-color: #404040;
+}
+
+/*container*/
+.container {
+    display: grid;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.row {
+    width: 100%;
+    display: inline-flex;
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+}
+
+/*header*/
+#header {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 5px;
+    padding: 15px;
+    background: linear-gradient(to bottom right, #818c48 30%, #a4d246 79%);
+}
+
+.h1 {
+    text-align: center;
+    font-family: "Alkatra", cursive;
+    font-weight: bold;
+    color: #006600;
+    padding: 5px;
+    margin-top: 2px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 2px;
+    font-size: 32px;
+}
+
+/*Navigation bar*/
+#navbar {
+    text-align: center;
+    font-size: 16px;
+    padding: 0px;
+}
+
+nav ul li {
+    display: inline;
+    list-style-type: none;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+li a {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: bold;
+    color: maroon;
+}
+
+li a:hover:not(:active) {
+    background-color: #dea821;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/*section1*/
+#section1 {
+    display: inline-block;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 10px;
+    background: linear-gradient(to bottom right, #7ba428 23%, #378736 80%);
+
+}
+.para {
+    text-align: justify;
+    font-size: 17px;
+    font-family: 'Bree Serif', serif;
+    color: black;
+}
+/*Section2*/
+#section2{
+    display: inline-block;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background: linear-gradient(to bottom right, #7ba428 23%, #378736 80%);
+    padding: 15px;
+    text-align: center;
+
+}
+.imgLabel{
+    margin-bottom: 5px;
+        font-weight: bold;
+        margin-top: 10px;
+        color: maroon;
+        margin-left: 10px;
+        margin-right: 15px;
+        font-family: 'Signika', sans-serif;
+        width: 70%;
+        font-size: 18px;
+}
+.imgBtn{
+    margin: 0px;
+    padding: 0px;
+    width: 90%;
+}
+.btn{
+    margin-top: 5px;
+    margin-bottom: 2px;
+    margin-left: 5px;
+    margin-right: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #3D2C0C;
+    font-weight: bold;
+    font-family: 'Signika', sans-serif;
+    background-color: #8DBD2D;
+    font-size: 18px;
+    border: none;
+}
+/*image1*/
+#img1{
+    width: 50%;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(to top left, #465927 37%, #d1990d 83%);
+}
+#image1 {
+    width: 100%;
+    display: block;
+    padding: 0px;
+    margin: 0px;
+}
+/* image2 */
+#img2{
+    width: 50%;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+        background: linear-gradient(to bottom right, #ad5517 17%, #465927 100%);
+    
+} 
+
+#image2{
+    width: 100%;
+    display: block;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #3D2C0C;
+    margin-left: 10px;
+    margin-right: 15px;
+    font-family: 'Valera Round', sans-serif;
+    width: 75px;
+    font-size: 18px;
+}
+/*likes*/
+.likes {
+    font-family: 'Signika', sans-serif;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    font-size: 18px;
+    border: 2px solid #006600;
+    padding: 2px;
+}
+
+/*footer*/
+#footer {
+    width: 100%;
+    background: linear-gradient(to bottom right, #7ba428 23%, #378736 80%);
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    padding: 15px;
+    text-align: center;
+
+}
+/* image3 */
+#img3 {
+    width: 50%;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(to bottom left, #ad5517 17%, #465927 100%);
+}
+
+#image3 {
+    width: 100%;
+    display: block;
+    padding: 0px;
+    margin: 0px;
+}
+/* image4 */
+#img4 {
+    width: 50%;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(to top left, #465927 37%, #d1990d 83%);
+}
+
+#image4 {
+    width: 100%;
+    display: block;
+    padding: 0px;
+    margin: 0px;
+}
