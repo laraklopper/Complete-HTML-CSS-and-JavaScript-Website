@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!--Google fonts-->    
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <!--CSS stylesheets-->
+    <link rel="stylesheet" href="./CSS/styles1.css">
+    <link rel="stylesheet" href="./CSS/responsive1.css">
+</head>
+<!--body-->
+<body id="body">
+    <!--container-->
+    <div class="container">
+        <!--Header-->
+        <header id="header">
+            <!--Row 1-->
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="h1">WILDLIFE AND LANDSCAPE PHOTOGRAPHY</h1>
+                    <!--Navigation Bar-->
+                    <nav id="navbar">
+                        <ul>
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="page2.html">CONSERVATION</a></li>
+                            <li><a href="page3.html">PORTFOLIO</a></li>
+                            <li><a href="page4.html">VIEW MORE</a></li>
+                            <li><a href="page5.html">SAVED CONTENT</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!--section1-->
+        <section id="section1">
+            <!--row 2-->
+            <div class="row" id="row2">
+                <!--Content-->
+                <div class="col-6" id="content">
+                    <p class="para">My name is Lara Klopper, I was born and live in South Africa.
+                        My hobbies include is photography and hiking. Since I was young, I have always
+                        been enthusiastic about wildlife and landscape photography and have always
+                        had a strong interest in nature conservation and geography.
+                    I have been lucky enough to have visited many game reserves in
+                        South Africa and taken many photos as an amateur photographer.</p>
+
+
+                        <div id="likeBox">
+                            <label for="image1" class="imgLabel">Victoriafalls</label><br>
+                            <button class="btn btn-success" id="likeButton">Like</button><br>
+                            <label for="likeCount" class="label">Likes:</label><span class="likes" id="likeCount">0</span>
+                            <br>
+                        </div>
+                </div>
+                <div class="col-6" id="img1">
+                    <button class="imgBtn" onclick="saveImage('./Images/Victoriafalls.jpg')"><img id="image1" src="./Images/Victoriafalls.jpg" class="img-fluid" alt="Victoriafalls"> </button>
+                </div>
+            </div>
+            <!--responsive image-->
+            <div class="row " id="responsiveImg">
+                <div class="col-12" id="alt-image">
+                    <button class="imgBtn" onclick="saveImage('./Images/Victoriafalls.jpg')" id="altImgBtn"><img id="image2" src="./Images/Victoriafalls.jpg" class="img-fluid" alt="Victoriafalls"> </button>
+                </div>
+            </div>
+        </section>
+    
+        <!--Footer-->
+        <footer id="footer">
+            <!--Row 3-->
+            <div class="row">
+                <div class="col">
+                    <!--Testimonial/Quote-->
+                    <p class="para3"><q>One of the first conditions of happiness is that the link between man and nature shall not be broken.</q><br>Leo Tolstoy</p>
+                </div>
+            </div>
+            <!--Row 4-->
+            <div class="row">
+                <div class="col-12">
+                    <p class="para2">Click on any image to save for later</p>
+                </div>
+            </div>
+        </footer>
+    </div>    
+    <!--JavaScript-->
+    <script src="./Javascript/script1.js"></script>
+</body>
+</html>
