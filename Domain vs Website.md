@@ -11,9 +11,25 @@
 | **Requirement** | Needs to be registered with a domain registrar. | Needs hosting and development to function. |
 
 ## EXAMPLE
-![image](https://github.com/user-attachments/assets/92899a0d-ae00-426a-a4b4-d733c7646f4b)
+The **structure of a domain** consists of multiple parts, typically following this format:
 
-A subdomain is a prefix added to the original domain. The URL (`Uniform Resource Locator`) doesn’t have to include subdomains, but they are commonly used to ease navigation. A website domain name is a part of a URL that identifies its belonging to a particular domain.
-## REFERENCES
+### **1. General Structure of a Domain**  
+```
+    subdomain     .    second-level domain    .    top-level domain
+      (www)               (example)                  (.com)
+```
 
-- https://colibriwp.com/blog/domain-vs-website/
+### **2. Breakdown of Domain Parts**  
+
+| **Part**               | **Description** | **Example** |
+|------------------------|---------------|-------------|
+| **Subdomain**          | An optional prefix that helps organize a website into sections. | `www.` or `blog.` or `store.` |
+| **Second-Level Domain (SLD)** | The main part of the domain name, chosen by the owner. | `example`, `google`, `facebook` |
+| **Top-Level Domain (TLD)** | The extension at the end, indicating type or region. | `.com`, `.org`, `.net`, `.za`, `.gov` |
+
+### **3. Example Domain Structure**
+For **`blog.example.com`**, the structure is:
+- **`blog`** → **Subdomain** (specific section of the site)
+- **`example`** → **Second-Level Domain** (main name of the website)
+- **`.com`** → **Top-Level Domain (TLD)** (type of domain)
+ 
